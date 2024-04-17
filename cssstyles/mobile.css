@@ -244,31 +244,6 @@ body {
     transform: translate(-50%);
 }
 
-/* area de transição de areas das imagens dos quadros roxos */
-/* quando formos informar onde a imagem esta caso o css esteja em uma pasta clicamos e adicionas um ponto . pois isso significa que ele voltara uma pasta no caso ele ira sair da pasta do css e clicamos e adicionamos outro ponto . para que o vscode reconheça que entraremos em outra pasta e damos /  para que ele identifique as pastas presentes no arquivo apos isso selecionamos a pasta e colocamos o elemento que queremos que nem no codigo logo abaixo */
-#area1:hover{
-    transition: 2s, 2s;
-    background-image: url(../imagens/WB-Hover.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-#area2:hover{
-    transition: 2s, 2s;
-    background-image: url(../imagens/DC-Hover.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-#area3:hover{
-    transition: 2s, 2s;
-    background-image: url(../imagens/UCL-Hover.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-/* */
-
 
 
 
@@ -307,10 +282,7 @@ body {
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
 }
-#pla1:hover {
-        transition-duration: 5s;
-        transform: rotatex(30deg);
-}
+
 #pla2{
     position: relative;
     left: 25%;
@@ -318,11 +290,7 @@ body {
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
 }
-#pla2:hover {
-    transition-duration: 5s;
-    transform: rotatex(30deg);
-    box-shadow: 0px 5px 10px black;
-}
+
 #pla3{
     position: relative;
     left: 25%;
@@ -330,11 +298,7 @@ body {
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
 }
-#pla3:hover {
-    transition-duration: 5s;
-    transform: rotatex(30deg);
-    
-}
+
 .titulo {
     color: rgb(78, 9, 99);
     position: relative;
